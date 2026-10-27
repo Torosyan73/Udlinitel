@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+html, body {
+    font-family: $base-font;
+    font-size: clamp(0.9375rem, 0.9148rem + 0.1136vw, 1rem);
+    font-weight: 400;
+    scroll-behavior: smooth;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1200px;
+}
+
+body.noscroll {
+    overflow: hidden;
+}
+
+.modal-open {
+    overflow: hidden;
+    height: 100vh;
+}
+
+.logo__txt {
+    font-family: $accent-font;
+    font-size: clamp(1.5rem, 1.3636rem + 0.6818vw, 1.875rem);
+    font-weight: 500;
+    color: $accent-color;
+
+    &--header {
+        color: $blue-color;
+    }
+}
+
+p {
+    line-height: 1.4;
+}
+
+

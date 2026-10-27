@@ -1,0 +1,26 @@
+.title-1 {
+    font-family: $accent-font;
+    font-size: clamp(1.0625rem, 0.5398rem + 2.6136vw, 2.5rem);
+    font-weight: 500;
+    text-transform: uppercase;
+    color: $white-color;
+    line-height: 1.5;
+}
+
+.title-2 {
+    font-family: $accent-font;
+    font-size: clamp(1.5rem, 1.3636rem + 0.6818vw, 1.875rem);
+    color: $blue-color;
+}
+
+.title-3 {
+    font-family: $accent-font;
+    font-size: clamp(1rem, 0.9545rem + 0.2273vw, 1.125rem);
+    color: $blue-color;
+}
+
+.title-4 {
+    font-family: $accent-font;
+    font-size: clamp(1rem, 0.9091rem + 0.4545vw, 1.25rem);
+    color: $white-color;
+}

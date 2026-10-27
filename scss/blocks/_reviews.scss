@@ -1,0 +1,63 @@
+.mySwiperReview {
+    padding: 5px;
+}
+
+.no-select {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;;
+}
+
+.mySwiperReview .swiper-slide {
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+.review-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 15px;
+    text-align: center;
+    font-size: clamp(0.875rem, 0.8523rem + 0.1136vw, 0.9375rem);
+}
+
+.review-card__header {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.review-card__name {
+    font-size: clamp(1rem, 0.9773rem + 0.1136vw, 1.0625rem);
+    font-weight: 500;
+    color: $blue-color;
+}
+
+.mySwiperReview .swiper-pagination-bullet {
+    width: 20px;
+    height: 2px;
+    border-radius: 0;
+}
+
+.mySwiperReview .swiper-pagination-bullet-active {
+    background-color: $blue-color;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
